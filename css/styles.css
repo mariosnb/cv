@@ -36,7 +36,6 @@ h2 {
   color: #4d9494;
   font-weight: normal;
   padding-bottom: 10px;
-  font-weight: 600;
 }
 
 h3 {
@@ -55,7 +54,7 @@ p {
 }
 
 .intro {
-  width: 30%;
+  width: 50%;
   margin: auto;
 }
 
@@ -80,7 +79,7 @@ p {
 }
 
 .skill-row {
-  width: 50%;
+  width: 70%;
   margin: 100px auto 100px auto;
   text-align: left;
 }
@@ -98,7 +97,7 @@ p {
 }
 
 .contact-message {
-  width: 40%;
+  width: 60%;
   margin: 40px auto 60px;
 }
 
@@ -175,35 +174,25 @@ padding: 50px 0 20px;
 
 @media only screen and (max-width: 1200px) {
   .intro {
-    width: 40%;
-  }
-
-  .skill-row {
-    width: 60%;
-  }
-
-  .contact-message {
-    width: 60%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .intro {
-    width: 60%;
+    width: 70%;
   }
 
   .skill-row{
-    width: 40%;
+    width: 55%;
   }
 }
 
 @media only screen and (max-width: 576px) {
+  .profile-img {
+    width: 200px;
+    height: 250px;
+  }
   .intro {
-    width: 80%;
+    width: 85%;
   }
 
   .skill-row {
-    width: 75%;
+    width: 70%;
   }
 
   .contact-message {
